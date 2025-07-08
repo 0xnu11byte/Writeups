@@ -1,5 +1,5 @@
 # TryHackMe: Mountaineer
-
+![room_image](https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1718377695513)
 ---
 
 Mountaineer was an interesting box that started with discovering a WordPress instance running a plugin vulnerable to authenticated RCE. Using the nginx off-by-slash vulnerability, I was able to read files on the server, which revealed a vhost hosting Roundcube. By logging into Roundcube with guessable credentials, I found WordPress creds and some user info. Using the creds, I exploited the vulnerable plugin to get a shell as `www-data`.
@@ -12,7 +12,7 @@ Finally, I’ve also documented how the nginx off-by-slash vuln can be combined 
 
 ## Room Link
 
-[TryHackMe Mountaineer](#)
+[TryHackMe Mountaineer](https://tryhackme.com/room/mountaineerlinux)
 
 ---
 
