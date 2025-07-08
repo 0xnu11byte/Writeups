@@ -5,6 +5,9 @@
 **Blue** is a TryHackMe room designed to teach exploiting **Windows SMBv1 (MS17-010)** misconfigurations, privilege escalation, hash dumping, cracking, and flag collection systematically.
 
 ---
+#Room Link
+[Blue](https://tryhackme.com/room/blue)
+---
 
 ## \[Task 1] Recon (19/03/2019)
 
