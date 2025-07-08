@@ -9,8 +9,7 @@
 [Blue](https://tryhackme.com/room/blue)
 ---
 
-## \[Task 1] Recon (19/03/2019)
-
+## \[Task 1] Recon
 ### Description
 
 We start by scanning the machine to identify services and vulnerabilities. Note: The target does not respond to ICMP (ping).
