@@ -1,5 +1,5 @@
 # TryHackMe - Blue: Full Walkthrough
-
+![THM Blue](https://tryhackme-images.s3.amazonaws.com/room-icons/7717bbc69c486931e503a74f3192a4d8.gif)
 ## Overview
 
 **Blue** is a TryHackMe room designed to teach exploiting **Windows SMBv1 (MS17-010)** misconfigurations, privilege escalation, hash dumping, cracking, and flag collection systematically.
