@@ -16,7 +16,7 @@ Welcome to my personal repository where I document **detailed walkthroughs of CT
 ## 🚩 Writeups
 #[TryHackMe](TryHackMe/README.md)
 - [TryHackMe: Mountaineer](TryHackMe/Mountaineer.md)
-- [TryHackMe: Relevant](TryHackMe/Blue.md)
+- [TryHackMe: Blue](TryHackMe/Blue.md)
   
 #[HackTheBox](HackTheBox/README.md)
 
