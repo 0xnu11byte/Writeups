@@ -14,13 +14,11 @@ Welcome to my personal repository where I document **detailed walkthroughs of CT
 
 ---
 ## 🚩 Writeups
-#TryHackMe
+#[TryHackMe](TryHackMe/README.md)
 - [TryHackMe: Mountaineer](TryHackMe/Mountaineer.md)
-- [TryHackMe: Relevant](TryHackMe/Relevant.md)
+- [TryHackMe: Relevant](TryHackMe/Blue.md)
   
-#HackTheBox
-- [HackTheBox: Blue](HackTheBox/Blue.md)
-- [HackTheBox: Archetype](HackTheBox/Archetype.md)
+#[HackTheBox](HackTheBox/README.md)
 
 ---
 
