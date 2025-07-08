@@ -217,14 +217,4 @@ Read final flag:
 3. Reset admin password.
 4. Use CVE-2021-24145 or plugin upload to get `www-data` shell.
 
----
 
-## Notes
-
-✅ Demonstrated multiple foothold paths
-✅ Practical off-by-slash exploitation and KeePass cracking
-✅ Covered complete path to root
-
----
-
-If you need, I can generate this as a **clean PDF for your TryHackMe collection** for easy review and print-friendly offline study.
