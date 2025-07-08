@@ -1,7 +1,10 @@
-# HackTheBox \[Nocturnal](https://app.hackthebox.com/machines/Nocturnal)
+# HackTheBox \[Nocturnal]
 
 **Type:** Comprehensive Penetration Test Walkthrough
 
+## Overview
+
+Engaged in a thorough penetration test on [HackTheBox](https://hackthebox.com) machine **[Nocturnal](https://app.hackthebox.com/machines/Nocturnal)**.
 ---
 
 ## 1️⃣ Get Shell
