@@ -6,26 +6,8 @@
 
 **Objectives:** User flag, Root flag
 
----
 
-## 1. Setup
-
-Add the machine to your `/etc/hosts`:
-
-```bash
-echo "MACHINE_IP lookup.thm" | sudo tee -a /etc/hosts
-```
-
-Or manually using `nano`:
-
-```bash
-sudo nano /etc/hosts
-MACHINE_IP lookup.thm
-```
-
----
-
-## 2. Initial Enumeration
+## 1. Initial Enumeration
 
 Run an Nmap scan:
 
@@ -39,6 +21,25 @@ nmap -sVC -A lookup.thm -oN nmap.txt
 * **80/tcp:** HTTP (Apache 2.4.41)
 
 Visiting `http://lookup.thm` reveals a **login page**.
+
+---
+
+---
+
+## 2. Setup
+
+Add the machine to your `/etc/hosts`:
+
+```bash
+echo "MACHINE_IP lookup.thm" | sudo tee -a /etc/hosts
+```
+
+Or manually using `nano`:
+
+```bash
+sudo nano /etc/hosts
+MACHINE_IP lookup.thm
+```
 
 ---
 
