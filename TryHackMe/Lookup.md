@@ -155,7 +155,7 @@ Login with these credentials redirects to:
 ```
 files.lookup.thm
 ```
-
+```
 Add this to `/etc/hosts`.
 
 ---
