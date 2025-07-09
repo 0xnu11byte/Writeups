@@ -147,6 +147,7 @@ q.join()
 print("[*] Enumeration completed. Check valid_usernames.txt for results.")
 
 ---
+```
 
 ✅ **Found:** `jose:password123`
 
@@ -154,7 +155,6 @@ Login with these credentials redirects to:
 
 ```
 files.lookup.thm
-```
 ```
 Add this to `/etc/hosts`.
 
