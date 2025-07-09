@@ -12,7 +12,7 @@
 Run an Nmap scan:
 
 ```bash
-nmap -sVC -A lookup.thm -oN nmap.txt
+nmap -sVC -A MACHINE_IP -oN nmap.txt
 ```
 
 **Findings:**
@@ -20,7 +20,7 @@ nmap -sVC -A lookup.thm -oN nmap.txt
 * **22/tcp:** SSH (OpenSSH 8.2p1)
 * **80/tcp:** HTTP (Apache 2.4.41)
 
-Visiting `http://lookup.thm` reveals a **login page**.
+ port 80 redirects to `http://lookup.thm`.
 
 ---
 
@@ -40,7 +40,7 @@ Or manually using `nano`:
 sudo nano /etc/hosts
 MACHINE_IP lookup.thm
 ```
-
+Visiting http://lookup.thm reveals a login page.
 ---
 
 ## 3. Web Brute Force
