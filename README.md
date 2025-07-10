@@ -61,9 +61,7 @@ These writeups are for **educational purposes only**. They demonstrate offensive
 
 If you want to discuss security, learning strategies, or collaboration:
 
-- 📧 [Your Email](mailto:0xnu11byte@proton.me)
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🌐 [Portfolio](https://yourportfolio.site) (optional)
+- 📧 [Mail me](mailto:0xnu11byte@proton.me)
 
 ---
 
