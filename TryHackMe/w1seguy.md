@@ -183,7 +183,7 @@ if __name__ == '__main__':
 
 ## Flags
 
-![flags](assets/scr_w1seguy.png)
+![flags](scr_w1seguy.png)
 
 ✅ **Flag 1:** Decrypted locally using your script.
 ✅ **Flag 2:** Retrieved automatically after submitting the recovered key.
