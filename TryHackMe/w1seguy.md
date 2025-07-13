@@ -181,16 +181,9 @@ if __name__ == '__main__':
 
 ---
 
-## Lessons Learned
-
-✅ **Known plaintext attacks** are effective against XOR encryption with a known structure.
-✅ Using the **flag structure (`THM{}` + `}`)** allows you to recover the key easily.
-✅ Automation makes crypto challenges more efficient during CTFs.
-✅ Always check the key scheduling and plaintext predictability in crypto challenges.
-
----
-
 ## Flags
+
+![flags](assets/scr_w1seguy.png)
 
 ✅ **Flag 1:** Decrypted locally using your script.
 ✅ **Flag 2:** Retrieved automatically after submitting the recovered key.
