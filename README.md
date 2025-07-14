@@ -18,7 +18,7 @@ Welcome to my personal repository where I document **detailed walkthroughs of CT
 - [TryHackMe: Mountaineer](TryHackMe/Mountaineer.md)
 - [TryHackMe: Blue](TryHackMe/Blue.md)
 - [TryHackMe: Lookup](TryHackMe/Lookup.md)
-- [TryHackMe: W1seguy](TryHackMe/W1seguy.md)
+- [TryHackMe: W1seguy](TryHackMe/w1seguy.md)
   
 #[HackTheBox](HackTheBox/README.md)
 
