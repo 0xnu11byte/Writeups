@@ -1,2 +1,2 @@
 ## TryHackMe : Buffer Overflow Prep
-![BufferOverflow](https://tryhackme-images.s3.amazonaws.com/room-icons/1948e2c67f072993904cec82f39653c0.png)
+![BufferOverflow](https://github.com/0xnu11byte/BufferOverflow/blob/master/oscp/2021-03-14-15-46-39.png)
