@@ -19,6 +19,7 @@ Welcome to my personal repository where I document **detailed walkthroughs of CT
 - [TryHackMe: Blue](TryHackMe/Blue.md)
 - [TryHackMe: Lookup](TryHackMe/Lookup.md)
 - [TryHackMe: W1seguy](TryHackMe/w1seguy.md)
+- [TryHackMe: Buffer Overflow Prep](TryHackMe/bufferoverflowprep.md)
   
 #[HackTheBox](HackTheBox/README.md)
 
